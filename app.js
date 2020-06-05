@@ -33,7 +33,7 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
 document.querySelector('.btn-hold').addEventListener('click',function(){
     if(flag==true){
     total[playerNo]+=current;
-    if(total[playerNo]>=20)
+    if(total[playerNo]>=100)
     {
         document.getElementById('name-'+playerNo).textContent='Winner!';
         flag=false;
